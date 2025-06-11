@@ -1,0 +1,87 @@
+/* Общие стили */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.task {
+  margin-bottom: 50px;
+}
+
+.box {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  background-color: #ddd;
+  margin: 20px auto;
+}
+
+/* === В ЭТИХ СЕКЦИЯХ НУЖНО ДОПИСАТЬ СТИЛИ === */
+
+/* Задание 1: Центрирование */
+.center-box {
+justify-content: center;
+align-items: center;
+  /* TODO: Центрировать блок по центру экрана */
+}
+
+/* Задание 2: Ховер-эффект */
+.hover-box {
+transition: all 0.4s;
+  /* TODO: Добавить ховер-эффект с изменением цвета и масштаба */
+}
+.hover-box:hover {
+  color: brown;
+  background-color: bisque;
+  transform: scale(1.2);
+}
+ 
+/* Задание 3: Цвета */
+.color-box {
+  color: aliceblue;
+  background-color: black;
+  /* TODO: Изменить цвет фона и текста */
+}
+
+/* Задание 4: Рамка и скругление */
+.border-box {
+  border-radius: 12px;
+  /* TODO: Добавить рамку и border-radius */
+}
+
+/* Задание 5: Тень */
+.shadow-box {
+  box-shadow: 44px 35px 27px 0px rgba(34, 60, 80, 0.2);
+  /* TODO: Добавить box-shadow */
+}
+
+/* Задание 6: Стилизация текста */
+.text-box {
+  font-size: 120%;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  /* TODO: Изменить размер, стиль, weight и сделать заглавными */
+}
+
+/* Задание 7: Плавность */
+.transition-box {
+  transition: 1.2s;
+  /* TODO: Добавить transition и стили ховера */
+}
+.transition-box:hover{
+  color: blue;
+  background-color: yellowgreen;
+}
+/* Задание 8: Адаптивность */
+.responsive-box {
+  width: 50%;
+  max-width: 300px;
+  /* TODO: Сделать ширину 50% + max-width 400px */
+}
