@@ -44,11 +44,15 @@ transition: all 0.4s;
  
 /* Задание 3: Цвета */
 .color-box {
-  color: aliceblue;
+  color: rgb(209, 216, 12);
   background-color: black;
+  
   /* TODO: Изменить цвет фона и текста */
 }
 
+.important a {
+color: black;
+}
 /* Задание 4: Рамка и скругление */
 .border-box {
   border-radius: 12px;
@@ -57,15 +61,17 @@ transition: all 0.4s;
 
 /* Задание 5: Тень */
 .shadow-box {
-  box-shadow: 44px 35px 27px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 44px 42px 5px -8px rgba(34, 60, 80, 0.2);
   /* TODO: Добавить box-shadow */
 }
 
 /* Задание 6: Стилизация текста */
 .text-box {
+  font-family: 'Roboto';
+  src: url("./Roboto-Italic.woff2") format("woff2");
   font-size: 120%;
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
   text-transform: uppercase;
   /* TODO: Изменить размер, стиль, weight и сделать заглавными */
 }
